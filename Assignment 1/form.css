@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-container{
+    background-color: #fffcf8;
+    text-align: center;
+    padding: 40px 20px;
+    
+}
+.img-container h1{
+    padding: 0 20px;
+    font-size: 44px;
+    line-height: 57px;
+    font-weight: 700;
+    color: #1A202C;
+}
+.main-img{
+    width: 389px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+}
+
+.img-container p{
+    font-size: 15.5px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #1A202C;
+    padding: 10px 20px;
+}
+.social-img{
+   text-align: center;
+   padding: 30px 0 0;
+}
+
+.mainform-cont{
+    background-color: white;
+    padding: 10px 50px;
+    
+}
+.form-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+    gap: 20px;   
+    
+}
+.form-div input,
+.form-div select{
+    display: block;
+    border: 1px solid;
+    border-radius: 6px;
+    color: #e2e8f0;
+    padding: 11px 17px;
+    width: 354.38px; 
+}
+
+.first-nav{
+    font-size: 18px;
+    margin: 30px;
+    font-weight: 900;  
+}
+.first-nav a{
+    color: #0367F2;
+    background-color: #fffcf8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+header{
+    margin-left: 10px;
+}
+header h1{
+    padding-bottom: 10px;
+    font-size: 32.77px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #1A202C;
+}
+header p{
+    font-size: 15.88px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #718096;
+    padding-bottom: 10px;
+}
+button{
+    width: 100%;
+    background-color: #0367F2;
+    text-align: center;
+    border-radius: 6px;
+    border-color: #0367F2;
+    padding: 15px;
+    font-size: 13.89px;
+    color: white;
+}
+
+.terms-p{
+    text-align: center;
+    color: #718096;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.terms-p a{
+    color: #0367F2;
+}
+
+/* Media Query for Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .img-container h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .main-img {
+        width: 350px;
+        margin: 20px auto;
+    }
+
+    .form-div {
+        align-items: center;
+    }
+
+    .form-div input,
+    .form-div select {
+        padding: 20px;
+        margin: 10px;
+    }
+}
+
+/* Media Query for Mobile (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .img-container {
+        padding: 30px 15px;
+    }
+
+    .img-container h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .main-img {
+        width: 320px;
+    }
+
+    .img-container p {
+        font-size: 14px;
+    }
+
+    .form-div input,
+    .form-div select {
+        width: 100%;
+    }
+
+    .first-nav a {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .terms-p {
+        font-size: 14px;
+        padding: 20px;
+    }
+}
+

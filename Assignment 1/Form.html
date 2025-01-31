@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+  <nav class="first-nav">
+    <a href="./bio.html"> Home</a>
+    <a href="./Form.html"> Application Form</a>
+    <a href="/Assignment 2/table.html"> AltSchool Course Table</a>
+        <a href="/Assignment 2/media.html"> Media</a> 
+</nav>
+  <div class="container"> 
+  <div class="img-container">
+    <img class="main-img" src="./Asset/Images/AltSchool Img.svg">
+    <h1>
+      Learn highly sought after skills without hassle.
+    </h1>
+    <div class="social-img">
+      <img src="./Asset/Images/Twitter Img.svg">
+    <img src="./Asset/Images/Instagram Img.svg">
+    <img src="./Asset/Images/Facebook Img.svg">
+    <img src="./Asset/Images/Linkedln Img.svg">
+    
+    </div>
+    <p>
+      2025 &copy; AltSchool Africa. All rights reserved.
+    </p>
+  </div>
+    <div class="mainform-cont">  
+    <header>
+      <h1>SignUp</h1>
+      <p>
+      Take the next steps to apply at AltSchool Africa 
+      </p>
+      </header>
+           
+  <main class="form-container">
+    <form action="Form.html"></form>
+    <div class="formgen-div">
+      <div class="form-div">
+    <div>
+      <label for="First Name">First Name</label>
+        <input type="text" id="First_Name" name="First Name" placeholder="Enter first name" required>
+    </div>
+    <div>
+      <label for="Last Name">Last Name</label>
+    <input type="text" id="Last_Name" name="Last Name" placeholder="Enter last name" required>
+     </div>
+  </div>
+        <div class="form-div">
+        <div>
+          <label for="Gender">Gender</label>
+        <select name="Gender" id="Gender" required>
+         <option>Select gender</option> 
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </select>
+        </div>
+        <div>
+          <label for="date of birth">Date of Birth</label>
+        <input type="date" id="date-of-birth"placeholder="date-of-birth" required>
+        </div>
+      </div>
+      <div class="form-div">
+        <div>
+          <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        </div>
+        <div>
+          <label for="phone number">Phone Number</label>
+        <input type="number" id="phonenumber" name="number" placeholder="08037167456">
+        </div>
+      </div>
+      <div class="form-div">
+        <div>
+         <label for="password">Password</label>
+       <input type="password" id="password" placeholder="Enter passowrd">
+        </div>
+        <div>
+          <label for="confirm password"> Confirm Password</label>
+          <input type="confirm password" id="confirm-password" placeholder="Enter passowrd again">
+    </div>
+       </div>
+      <div class="form-div">
+        <div>
+          <label for="country">Country</label>
+        <select name="Country" id="country" autocomplete="country" required>
+         <option>Select your Country</option>
+         <option value="DZ">Algeria</option>
+         <option value="AO">Angola</option>
+         <option value="BJ">Benin</option>
+         <option value="BW">Botswana</option>
+         <option value="BF">Burkina Faso</option>
+         <option value="BI">Burundi</option>
+         <option value="CV">Cabo Verde</option>
+         <option value="CM">Cameroon</option>
+         <option value="CF">Central African Republic</option>
+         <option value="TD">Chad</option>
+         <option value="KM">Comoros</option>
+         <option value="CG">Congo</option>
+         <option value="CD">Congo, Democratic Republic of the</option>
+         <option value="CI">Côte d'Ivoire</option>
+         <option value="DJ">Djibouti</option>
+         <option value="EG">Egypt</option>
+         <option value="GQ">Equatorial Guinea</option>
+         <option value="ER">Eritrea</option>
+         <option value="SZ">Eswatini (Swaziland)</option>
+         <option value="ET">Ethiopia</option>
+         <option value="GA">Gabon</option>
+         <option value="GM">Gambia</option>
+         <option value="GH">Ghana</option>
+         <option value="GN">Guinea</option>
+         <option value="GW">Guinea-Bissau</option>
+         <option value="KE">Kenya</option>
+         <option value="LS">Lesotho</option>
+         <option value="LR">Liberia</option>
+         <option value="LY">Libya</option>
+         <option value="MG">Madagascar</option>
+         <option value="MW">Malawi</option>
+         <option value="ML">Mali</option>
+         <option value="MR">Mauritania</option>
+         <option value="MU">Mauritius</option>
+         <option value="YT">Mayotte</option>
+         <option value="MA">Morocco</option>
+         <option value="MZ">Mozambique</option>
+         <option value="NA">Namibia</option>
+         <option value="NE">Niger</option>
+         <option value="NG">Nigeria</option>
+         <option value="RE">Reunion</option>
+         <option value="RW">Rwanda</option>
+         <option value="SH">Saint Helena</option>
+         <option value="ST">Sao Tome and Principe</option>
+         <option value="SN">Senegal</option>
+         <option value="SC">Seychelles</option>
+         <option value="SL">Sierra Leone</option>
+         <option value="SO">Somalia</option>
+         <option value="ZA">South Africa</option>
+         <option value="SS">South Sudan</option>
+         <option value="SD">Sudan</option>
+         <option value="TZ">Tanzania</option>
+         <option value="TG">Togo</option>
+         <option value="TN">Tunisia</option>
+         <option value="UG">Uganda</option>
+         <option value="EH">Western Sahara</option>
+         <option value="ZM">Zambia</option>
+         <option value="ZW">Zimbabwe</option>
+        </select>
+        </div>
+        <div>
+          <label for="state/city of residence"> State/City of Residence</label>
+        <input type="text" id="state-city of residence" placeholder="Enter your state of residence" required>
+        </div>
+      </div>
+      <div class="form-div">
+       <div>
+        <label for="how did you hear about us">How did you hear about us?</label>
+        <select name="how did you hear about us" id="how did you hear about us">
+          <option>Select a channel</option>
+        <option value="Instagram">Instagram</option>
+        <option value="twitter">Twitter</option>
+        <option value="facebook">Facebook</option>
+        <option value="youtube">Youtube</option>
+        <option value="linkedln">Linkedln</option>
+        <option value="friend">Friend</option>
+        <option value="billboard">Billboard</option>
+        <option value="whatsapp">WhatsApp</option>
+        </select>
+       </div>
+      </div>
+</div>
+      <p class="terms-p">
+  By clicking continue, I agree to <a href="https://altschoolafrica.com/terms-and-conditions">Terms of use</a> 
+  and acknowledge that I have read the <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>. 
+</p>
+
+      <button type="submit">Continue</button>
+    </form>
+  </main>
+</div>
+</div>
+</body>
+</html>
