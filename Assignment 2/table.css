@@ -39,6 +39,9 @@ th{
     text-transform: uppercase;
     padding: 15px;
 }
+table, th, td{
+    border: 2px solid  #ddd;
+}
 tr:nth-child(even){
     background-color:#f9f9f9;
 }
@@ -57,8 +60,8 @@ caption{padding: 20px;
     }
 
     th, td {
-        padding: 12px;
-        font-size: 14px;
+        padding: 5px;
+        font-size: 12px;
     }
     caption{
         padding-right: 120px;
